@@ -1,5 +1,4 @@
 # Readme.md
-Matheus 
 Atividade de Versionamento 
 ## Principais Comandos Utilizados
 git init ; git add ; git status ; git commit -m "mensagem" ; 
