@@ -7,4 +7,4 @@ git config --global user.email "email" ; git remote add origin;
 ## Ativiadade de Lógica de Programação 
 Aproveitei a utilização do github pra subir o fluxograma e o código solicitado no exercício , 
 adicionei as atividades dos encontros remoto.
-##Teste add
+Amar
