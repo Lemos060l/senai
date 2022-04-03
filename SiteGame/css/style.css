@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header*/
+
+.container-grid{
+
+    background-color:  #ff4141;
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    height: 100%;
+    margin: auto;
+}
+
+header {
+    background-color:  #ff4141;
+    height: 70px;
+    
+    
+}
+
+.menu a{
+    text-decoration: none;
+    color:  white;
+    font-family: ABeeZee, sans-serif; 
+    float: left;
+    
+}
+
+.submenu a{
+    background-color: black;
+    text-decoration: none;
+    font-family: ABeeZee, sans-serif;
+    color: white;
+}
+
+/*banner*/
+
+.banner {
+    background-image: url(../img/Sejabaner.png);
+    height:150px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+}
+
+.texto-seja {
+    background-color: #ff4141;
+    font-family: ABeeZee, sans-serif;
+    color: white;
+    height:  auto;
+
+
+}
+
+/* footer */
+
+footer {
+    background-color: #ff4141;
+    color: white;
+    font-family: ABeeZee,sans-serif;
+    height: 90px;
+}
+
+
+.footer-box {
+    width: 31%;
+    padding: 1%;
+    float: left;
+    margin: auto;
+}
