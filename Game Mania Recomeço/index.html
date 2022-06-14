@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!-- Identar= Alt+ Shift+ F -->
+<!--Ctrl + Ponto/Vírgula para transformar em comentário -->
+
+<head>
+  <meta charset="UTF-8">
+  <title>Game Mania</title>
+  <!-- Link do Css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Link da Fonte -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap" rel="stylesheet">
+  <!-- Link do Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<!-- div.texto , cria um atalho já com class -->
+
+<body onload="mostrarPopup()">
+
+  <header>
+    <div class="comeco posicionamento-header">
+      <a href="">
+        <img class="logo" src="img/logo.png" alt="Logo Game Mania">
+      </a>
+      <nav class="menu">
+        <a href="">Login Cadastre</a>
+      </nav>
+    </div>
+    <div>
+      <nav id="submenu" class="submenu">
+        <a href="">Departamentos</a>
+        <a href="">Vídeo Game</a>
+        <a href="">Celular</a>
+        <a href="">Computador</a>
+      </nav>
+      <a href="#" id="barras">
+        <img class="barras" src="img/bars.svg" alt="Barras">
+      </a>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <div class="seja">
+    <p>Seja Um Gamer</p>
+  </div>
+
+  <div class="banner"></div>
+
+  <!--Novo Lançamento e Carossel -->
+  <div class="novo">
+    <p>Novos Lançamentos</p>
+  </div>
+
+  <!-- <div class="carrosel" id="carrosel">
+    <img src="img/image 2processador.png" alt=""> 
+    <img src="img/image 4placa.png" alt="">
+    <img src="img/image 5memoria.png" alt="">
+    <img src="img/image 6headphone.png" alt="">
+  </div> -->
+
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/image 2processador.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/image 4placa.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/image 5memoria.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/image 6headphone.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <footer>
+    <div class="container-rodape">
+      <div class="links-footer">
+        <div class="links">
+          <h2>Informações</h2>
+          <ul>
+            <li><a href="#">Horário</a></li>
+            <li><a href="#">Local</a></li>
+            <li><a href="#">Missão</a></li>
+            <li><a href="#">Valores</a></li>
+          </ul>
+        </div>
+        <div class="links">
+          <h2>Perguntas Frequentes</h2>
+          <ul>
+            <li><a href="#">Prazo de Entrega</a></li>
+            <li><a href="#">Forma de Pagamento</a></li>
+            <li><a href="#">Desconto</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="redesocial">
+      <h2>Rede Sociais</h2>
+      <ul>
+        <li><a href="#"><img src="img/logoinsta.png" alt="logo Instagram"></a></li>
+        <li><a href="#"><img src="img/logoyoutube.png" alt="Logo Youtube"></a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!--Link para o JS -->
+  <script src="js/script.js"></script>
+  <!--Link do JQuery -->
+  <script src="js/jquery-3.6.0.js"></script>
+  <!-- Link do Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

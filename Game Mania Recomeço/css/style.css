@@ -1,0 +1,180 @@
+/* Identar = Alt+ Shift+ F */
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ABeeZee', sans-serif;
+    font-style: normal;
+}
+
+/* Logo */
+.comeco {
+    background-color: #FF4141;
+
+}
+
+.barras {
+    width: 30px;
+    display: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* Menu preto */
+.submenu {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 48px;
+    align-items: center;
+}
+
+/* Links Menu Preto */
+.submenu a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+/*Banner*/
+.banner {
+    background-image: url(../img/banner.png);
+    height: 480px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.seja {
+    color: white;
+    background-color: #FF4141;
+    font-size: 22px;
+}
+
+/*Novo Lançamento */
+.novo {
+    background-color: #17324B;
+    color: white;
+    font-size: 22px;
+}
+
+/* #carrosel img {
+    display: none;
+}
+
+.banner.ativo {
+    display: flex;
+} */
+
+.carousel-inner img {
+    height: 380px;
+    width: 1000px;
+    left: 1100px;
+    top: 690px;
+}
+
+footer {
+    background-color: #FF4141;
+}
+
+.container-rodape {
+    padding: 1px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    color: white;
+    margin-bottom: 8px;
+}
+
+.links h2 {
+    font-size: 24px;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.links-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.redesocial h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.redesocial {
+    color: white
+}
+
+.redesocial img {
+    width: 28px;
+}
+
+
+/*Media Screen = Responsibilidade */
+
+@media screen and (max-width: 1200px) {
+    .menu a {
+        width: 90%;
+    }
+
+    .logo {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .seja {
+        color: black;
+    }
+
+    .novo {
+        color: black;
+    }
+
+    .barras {
+        display: inline-block;
+    }
+
+    .submenu {
+        display: none;
+        flex-direction: column;
+        width: 200px;
+        height: 250px;
+        position: absolute;
+        top: 0;
+        right: 60;
+        background-color: black;
+    }
+
+    .submenu a {
+        text-align: center;
+        padding: 15px;
+    }
+
+    .submenu-ativo {
+        display: flex;
+    }
+
+    .posicionamento-header {
+        position: relative;
+    }
+}
