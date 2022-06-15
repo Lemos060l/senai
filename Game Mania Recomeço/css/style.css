@@ -76,11 +76,16 @@
     display: flex;
 } */
 
+.carousel-inner {
+    background-color: #17324B;
+}
+
 .carousel-inner img {
     height: 380px;
     width: 1000px;
     left: 1100px;
     top: 690px;
+    object-fit: contain;
 }
 
 footer {
