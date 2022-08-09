@@ -1,0 +1,15 @@
+C:\Program Files\ML\senai\UC12- BACK END\UC12 - SA2\Sistema\bin\Debug\net6.0\Sistema.exe
+C:\Program Files\ML\senai\UC12- BACK END\UC12 - SA2\Sistema\bin\Debug\net6.0\Sistema.deps.json
+C:\Program Files\ML\senai\UC12- BACK END\UC12 - SA2\Sistema\bin\Debug\net6.0\Sistema.runtimeconfig.json
+C:\Program Files\ML\senai\UC12- BACK END\UC12 - SA2\Sistema\bin\Debug\net6.0\Sistema.dll
+C:\Program Files\ML\senai\UC12- BACK END\UC12 - SA2\Sistema\bin\Debug\net6.0\Sistema.pdb
+C:\Program Files\ML\senai\UC12- BACK END\UC12 - SA2\Sistema\obj\Debug\net6.0\Sistema.csproj.AssemblyReference.cache
+C:\Program Files\ML\senai\UC12- BACK END\UC12 - SA2\Sistema\obj\Debug\net6.0\Sistema.GeneratedMSBuildEditorConfig.editorconfig
+C:\Program Files\ML\senai\UC12- BACK END\UC12 - SA2\Sistema\obj\Debug\net6.0\Sistema.AssemblyInfoInputs.cache
+C:\Program Files\ML\senai\UC12- BACK END\UC12 - SA2\Sistema\obj\Debug\net6.0\Sistema.AssemblyInfo.cs
+C:\Program Files\ML\senai\UC12- BACK END\UC12 - SA2\Sistema\obj\Debug\net6.0\Sistema.csproj.CoreCompileInputs.cache
+C:\Program Files\ML\senai\UC12- BACK END\UC12 - SA2\Sistema\obj\Debug\net6.0\Sistema.dll
+C:\Program Files\ML\senai\UC12- BACK END\UC12 - SA2\Sistema\obj\Debug\net6.0\refint\Sistema.dll
+C:\Program Files\ML\senai\UC12- BACK END\UC12 - SA2\Sistema\obj\Debug\net6.0\Sistema.pdb
+C:\Program Files\ML\senai\UC12- BACK END\UC12 - SA2\Sistema\obj\Debug\net6.0\Sistema.genruntimeconfig.cache
+C:\Program Files\ML\senai\UC12- BACK END\UC12 - SA2\Sistema\obj\Debug\net6.0\ref\Sistema.dll
