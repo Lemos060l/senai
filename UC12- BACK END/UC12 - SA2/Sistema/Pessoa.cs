@@ -7,6 +7,8 @@ namespace Sistema
 {
     public abstract class Pessoa
     {
+
+        // prop pra criar já pronto e só modificar
         public string nome { get; set; }
         public string endereco { get; set; }
 
