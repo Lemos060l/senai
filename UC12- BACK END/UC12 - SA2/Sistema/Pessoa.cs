@@ -9,19 +9,19 @@ namespace Sistema
     {
 
         // prop pra criar já pronto e só modificar
+        // Atributos 
         public string nome { get; set; }
-        public string endereco { get; set; }
+        public Endereco endereco { get; set; }
 
-        public bool enderecoComercial { get; set; }
+        //Método
+        public abstract void PagarImposto (float rendimento);
 
-
-        public void PagarImposto() {}
+        // nesse caso , o abtract emprega uma regra , tornando obrigação.
 
         // () siginfica método
 
 
     }
 
-    // get : acessar
-    // O sinal de interrogação após a string significada obrigação de nome sem o código não é necessário.
+    // O sinal de ? após a string significada não obrigação do atributo.
 }
