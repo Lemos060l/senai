@@ -6,11 +6,26 @@
         static void Main(string[] args)
         {
 
+            PessoaJuridica PJ = new PessoaJuridica();
+
             Endereco end = new Endereco();
             end.logradouro = "Rua X";
             end.numero = 100;
             end.complemento = "Bairro Novo";
-            end.enderecoComercial = false;
+            end.enderecoComercial = true;
+
+            PJ.endereco = end;
+            PJ.CNPJ = "11111111110001";
+            PJ.razaoSocial = "Pessoa Jurídica";
+            
+            if (PJ.ValidarCNPJ(PJ.CNPJ)){
+                Console.WriteLine("cnpj valido");
+            }else{
+                Console.WriteLine("cnpj invalido");
+            }
+            
+        
+/*
 
             PessoaFisica PF = new PessoaFisica();
 
@@ -35,7 +50,7 @@
             }else{
                 Console.WriteLine("Cadastro Negado");
             }
-
+*/
         }
 
 
