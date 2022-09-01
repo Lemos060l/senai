@@ -14,18 +14,37 @@ namespace Sistema
 
         public string razaoSocial { get; set; }
 
-        public override void PagarImposto (float rendimento) { }
+        public override float PagarImposto (float rendimento) {
+
+            float imposto = 0;
+        
+            if (rendimento <= 5000)
+            {
+                imposto = rendimento *6 /100;
+            }
+            else if (rendimento > 5000 && rendimento <= 10000)
+            {
+                imposto = rendimento * 8 / 100;
+            }
+            else if (rendimento > 10000)
+            {
+                imposto = rendimento * 10 / 100;
+            }  
+                return imposto;
+            }
+            }
 
         // float , utilizado para dinheiro.
         // override sobrescreve.
 
-        public bool ValidarCNPJ (string cnpj){
-            if(cnpj.Length >= 14 && cnpj.Substring(cnpj.Length - 4) == "0001"){
-                return true;
-            }else{
-                return false;
-            }
-        }
+        // public bool ValidarCNPJ (string CNPJ) {
+        //     if(CNPJ.Length >= 14 && (CNPJ.Substring(CNPJ.Length - 4)) == "0001"){
+        //         return true;
+        //     }else{
+        //         return false;
+        //     }
+        // }
+
 
     }
-}
+

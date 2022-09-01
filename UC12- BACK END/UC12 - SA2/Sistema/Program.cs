@@ -17,10 +17,13 @@
             ========================================
             ");
             Console.Write("Iniciando!!");
-            Thread.Sleep(800);
+            Thread.Sleep(300);
 
             for (var contador = 0; contador < 10; contador++)
+            {
                 Console.Write("#");
+                Thread.Sleep(300);
+            }
             Console.Clear();
 
             string opcao;
@@ -42,10 +45,56 @@
                 switch (opcao)
                 {
                     case "1":
+                        Endereco endPF = new Endereco();
+                        endPF.logradouro = "Rua X";
+                        endPF.numero = 100;
+                        endPF.complemento = "Perto daqui";
+                        endPF.enderecoComercial = false;
+
+                        PessoaFisica Matheus = new PessoaFisica();
+                        Matheus.CPF = "99999999907";
+                        Matheus.dataNascimento = new DateTime(2002, 07, 08);
+                        Matheus.endereco = endPF;
+                        Matheus.nome = "Matheus Taldo Theu";
+
+                        Console.WriteLine(@$"Nome: {Matheus.nome}
+CPF: {Matheus.CPF} 
+Nascido em {Matheus.dataNascimento.ToString("dd/MM/yyyy")}
+Endereço: {endPF.logradouro}, {endPF.numero}");
+
+                        Console.WriteLine();
+
                         break;
                     case "2":
+                        Endereco endPJ = new Endereco();
+
+                        endPJ.logradouro = "Rua X";
+                        endPJ.numero = 100;
+                        endPJ.complemento = "Logo Ali";
+                        endPJ.enderecoComercial = true;
+
+                        PessoaJuridica PJ = new PessoaJuridica();
+                        PJ.CNPJ = "102050001";
+                        PJ.endereco = endPJ;
+                        PJ.razaoSocial = "TheuTaldo";
+                        PJ.nome = "Matheus Taldo Theu";
+
+                        Console.WriteLine(@$"Nome: {PJ.nome} 
+Cnpj:{PJ.CNPJ}
+Razão Social: {PJ.razaoSocial}
+Endereço: {endPJ.logradouro}, {endPJ.numero}");
+
                         break;
                     case "0":
+                        Console.WriteLine("Obrigado por utilizar o nosso sistema");
+                        Console.Write("Finalizado");
+                        Thread.Sleep(300);
+
+                        for (var contador = 0; contador < 10; contador++)
+                        {
+                            Console.Write("#");
+                            Thread.Sleep(300);
+                        }
                         break;
                     default:
                         Console.WriteLine("Opção Inválida!");
@@ -54,49 +103,6 @@
             } while (opcao != "0");
             Console.ResetColor();
 
-
-            /*
-                        PessoaJuridica PJ = new PessoaJuridica();
-                        Endereco end = new Endereco();
-                        end.logradouro = "Rua X";
-                        end.numero = 100;
-                        end.complemento = "Bairro Novo";
-                        end.enderecoComercial = true;
-
-                        PJ.endereco = end;
-                        PJ.CNPJ = "11111111110001";
-                        PJ.razaoSocial = "Pessoa Jurídica";
-
-                        if (PJ.ValidarCNPJ(PJ.CNPJ)){
-                            Console.WriteLine("cnpj valido");
-                        }else{
-                            Console.WriteLine("cnpj invalido");
-                        }
-
-                        PessoaFisica PF = new PessoaFisica();
-
-                        PF.endereco = end;
-                        PF.nome = "Matheus";
-                        PF.CPF = "999.999.999-07";
-                        PF.dataNascimento = new DateTime(2002, 07, 08);
-
-                        //interpolação
-                        Console.WriteLine($"O {PF.nome} mora na {PF.endereco.logradouro} Nº {PF.endereco.numero}");
-
-                        // // concatenação
-                        // Console.WriteLine("O" + PF.nome + "mora na" + PF.endereco.logradouro + PF.endereco.numero);
-
-                        bool idadeValida = PF.ValidarDataNascimento(PF.dataNascimento);
-
-                        // bool ( true ou false )
-
-                        if (idadeValida == true) {
-
-                            System.Console.WriteLine("Cadastro Aprovado");
-                        }else{
-                            Console.WriteLine("Cadastro Negado");
-                        }
-            */
         }
 
 

@@ -14,7 +14,7 @@ namespace Sistema
         public Endereco endereco { get; set; }
 
         //Método
-        public abstract void PagarImposto (float rendimento);
+        public abstract float PagarImposto (float rendimento);
 
         // nesse caso , o abtract emprega uma regra , tornando obrigação.
 
