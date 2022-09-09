@@ -14,6 +14,8 @@ namespace Sistema
 
         public DateTime dataNascimento { get; set; }
 
+        public float salario { get; set; }
+
         public override float PagarImposto(float salario)
         {
             if (salario <= 1500)
