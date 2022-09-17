@@ -14,10 +14,15 @@ namespace Sistema
 
         public string razaoSocial { get; set; }
 
+        public string caminho { get; private set; } = "Database/PessoaJuridica.csv";
+
         public override float PagarImposto(float rendimento)
         {
 
             float imposto = 0;
+
+            // float , utilizado para dinheiro.
+            // override sobrescreve.
 
             if (rendimento <= 5000)
             {
@@ -44,10 +49,41 @@ namespace Sistema
                 return false;
             }
         }
+
+        public void Inserir(PessoaJuridica PJ)
+        {
+            VerificarPastaArquivo(caminho);
+
+            string[] PJstring = { $"{PJ.nome}, {PJ.CNPJ}, {PJ.razaoSocial}" };
+
+            File.AppendAllLines(caminho, PJstring);
+
+        }
+
+        public List<PessoaJuridica> Ler()
+        {
+
+            List<PessoaJuridica> listaPJ = new List<PessoaJuridica>();
+
+            string[] linhas = File.ReadAllLines(caminho);
+
+            foreach (string cadaLinha in linhas)
+            {
+                string[] atributos = cadaLinha.Split(",");
+
+                PessoaJuridica cadaPJ = new PessoaJuridica();
+
+                cadaPJ.nome = atributos[0];
+                cadaPJ.CNPJ = atributos[1];
+                cadaPJ.razaoSocial = atributos[2];
+
+                listaPJ.Add(cadaPJ);
+            }
+
+            return listaPJ;
+        }
     }
 
-    // float , utilizado para dinheiro.
-    // override sobrescreve.
 
 
 
