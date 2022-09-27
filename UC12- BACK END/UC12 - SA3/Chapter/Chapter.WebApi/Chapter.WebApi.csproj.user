@@ -5,6 +5,6 @@
   </PropertyGroup>
   <PropertyGroup>
     <ActiveDebugProfile>Chapter.WebApi</ActiveDebugProfile>
-    <NameOfLastUsedPublishProfile>IISProfile</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\Program Files\ML\senai\UC12- BACK END\UC12 - SA3\Chapter\Chapter.WebApi\Properties\PublishProfiles\matheusapichapter - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

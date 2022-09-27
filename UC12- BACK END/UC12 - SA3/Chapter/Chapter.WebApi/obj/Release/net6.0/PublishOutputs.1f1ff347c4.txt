@@ -1,0 +1,12 @@
+C:\Program Files\ML\senai\UC12- BACK END\UC12 - SA3\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\Chapter.WebApi.exe
+C:\Program Files\ML\senai\UC12- BACK END\UC12 - SA3\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\web.config
+C:\Program Files\ML\senai\UC12- BACK END\UC12 - SA3\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Program Files\ML\senai\UC12- BACK END\UC12 - SA3\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Program Files\ML\senai\UC12- BACK END\UC12 - SA3\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\Chapter.WebApi.dll
+C:\Program Files\ML\senai\UC12- BACK END\UC12 - SA3\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\Chapter.WebApi.deps.json
+C:\Program Files\ML\senai\UC12- BACK END\UC12 - SA3\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\Chapter.WebApi.runtimeconfig.json
+C:\Program Files\ML\senai\UC12- BACK END\UC12 - SA3\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\Chapter.WebApi.pdb
+C:\Program Files\ML\senai\UC12- BACK END\UC12 - SA3\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Program Files\ML\senai\UC12- BACK END\UC12 - SA3\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Program Files\ML\senai\UC12- BACK END\UC12 - SA3\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Program Files\ML\senai\UC12- BACK END\UC12 - SA3\Chapter\Chapter.WebApi\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
