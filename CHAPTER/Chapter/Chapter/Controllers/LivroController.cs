@@ -51,7 +51,7 @@ namespace Chapter.Controllers
 
         [HttpPost]
 
-        public IActionResult Cadastrar(Livro livro) 
+        public IActionResult Cadastrar(Livro livro)
         {
             try
             {
@@ -97,6 +97,7 @@ namespace Chapter.Controllers
                 throw new Exception(e.Message);
             }
         }
+
 
 
     }

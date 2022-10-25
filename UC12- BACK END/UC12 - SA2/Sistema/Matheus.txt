@@ -1,0 +1,3 @@
+O nome do usuário é Matheus, CPF de número 3565414, nascido em 02/07/2008 00:00:00 
+Residente em Rua X 200
+Possui endereço residêncial? False
