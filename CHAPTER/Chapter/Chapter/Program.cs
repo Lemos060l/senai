@@ -1,7 +1,7 @@
 using Chapter.Contexts;
 using Chapter.Interface;
 using Chapter.Repositories;
-
+using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +20,24 @@ builder.Services.AddCors( options=>
 }
 );
 
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultChallengeScheme = "JwtBearer";
+    options.DefaultAuthenticateScheme = "JwtBearer";
+}).AddJwtBearer("JwtBearer", options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("chapter-chave-autenticacao")),
+        ClockSkew = TimeSpan.FromMinutes(30),
+        ValidIssuer = "chapter.webapi",
+        ValidAudience = "chapter.webapi"
+    };
+}
+);
 builder.Services.AddScoped<ChapterContext, ChapterContext>();
 builder.Services.AddTransient < LivroRepository, LivroRepository>();
 builder.Services.AddTransient<IUsuarioRepository, UsuarioRepostiroy>();
@@ -39,6 +57,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseAuthentication();
 
 app.MapControllers();
 
