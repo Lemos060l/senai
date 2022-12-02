@@ -1,0 +1,12 @@
+C:\Program Files\ML\senai\UC15 - TESTE DE BACK-END\Projeto_Teste\Projeto_Teste\bin\Debug\net6.0\Projeto_Teste.deps.json
+C:\Program Files\ML\senai\UC15 - TESTE DE BACK-END\Projeto_Teste\Projeto_Teste\bin\Debug\net6.0\Projeto_Teste.dll
+C:\Program Files\ML\senai\UC15 - TESTE DE BACK-END\Projeto_Teste\Projeto_Teste\bin\Debug\net6.0\Projeto_Teste.pdb
+C:\Program Files\ML\senai\UC15 - TESTE DE BACK-END\Projeto_Teste\Projeto_Teste\obj\Debug\net6.0\Projeto_Teste.csproj.AssemblyReference.cache
+C:\Program Files\ML\senai\UC15 - TESTE DE BACK-END\Projeto_Teste\Projeto_Teste\obj\Debug\net6.0\Projeto_Teste.GeneratedMSBuildEditorConfig.editorconfig
+C:\Program Files\ML\senai\UC15 - TESTE DE BACK-END\Projeto_Teste\Projeto_Teste\obj\Debug\net6.0\Projeto_Teste.AssemblyInfoInputs.cache
+C:\Program Files\ML\senai\UC15 - TESTE DE BACK-END\Projeto_Teste\Projeto_Teste\obj\Debug\net6.0\Projeto_Teste.AssemblyInfo.cs
+C:\Program Files\ML\senai\UC15 - TESTE DE BACK-END\Projeto_Teste\Projeto_Teste\obj\Debug\net6.0\Projeto_Teste.csproj.CoreCompileInputs.cache
+C:\Program Files\ML\senai\UC15 - TESTE DE BACK-END\Projeto_Teste\Projeto_Teste\obj\Debug\net6.0\Projeto_Teste.dll
+C:\Program Files\ML\senai\UC15 - TESTE DE BACK-END\Projeto_Teste\Projeto_Teste\obj\Debug\net6.0\refint\Projeto_Teste.dll
+C:\Program Files\ML\senai\UC15 - TESTE DE BACK-END\Projeto_Teste\Projeto_Teste\obj\Debug\net6.0\Projeto_Teste.pdb
+C:\Program Files\ML\senai\UC15 - TESTE DE BACK-END\Projeto_Teste\Projeto_Teste\obj\Debug\net6.0\ref\Projeto_Teste.dll
