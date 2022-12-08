@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "f1WKTzFyzbHMjGy9hzz7eqXbXOnHfVgFolGRJqkkoAV80nBYdo6ccIdpwySxG9dIcEB3pcyvi4ZS5IKdson2RA==",
+  "dgSpecHash": "6+qgZwW/Dcc+sHYzY5SLVu8EuTT3fzniYtB362G5oKT21xh1kFJWxW8BvCFgpWCNuKnZRIgHr84NWBf3MtFr/w==",
   "success": true,
   "projectFilePath": "C:\\Program Files\\ML\\senai\\UC15 - TESTE DE BACK-END\\Projeto_Teste\\Projeto_Teste\\Projeto_Teste.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Matheus\\.nuget\\packages\\castle.core\\5.1.0\\castle.core.5.1.0.nupkg.sha512",
+    "C:\\Users\\Matheus\\.nuget\\packages\\moq\\4.18.3\\moq.4.18.3.nupkg.sha512",
+    "C:\\Users\\Matheus\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

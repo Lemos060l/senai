@@ -10,5 +10,9 @@
 
         public string? Tipo { get; set; }
 
+        public void Returns(Usuario? usuario)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
